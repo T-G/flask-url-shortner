@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block title %} URL for "{{ code }}" | URL Shortner {% endblock %}
+
+{% block body %}
+
+<div class="container text-center">
+    <h2>Url Created.</h2>
+    <div class="mt-4">
+        <div class="d-inline">Short URL Code: </div>
+        <div id="shortUrl" class="d-inline">{{ code }} </div>
+    </div>
+    <div class="mt-4">
+        <p id="fullUrl"></p>
+    </div>
+    
+    <button id="btnCopyUrl" class="btn btn-primary">Copy URL</button>
+</div>
+    
+{% endblock %} 

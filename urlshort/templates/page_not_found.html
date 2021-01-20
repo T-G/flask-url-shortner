@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %} Page Not Found | URL Shortner {% endblock %}
+
+{% block body %}
+
+<div class="container">
+    <h1>404: Page not Found</h1>
+    <p>We couldn't find what are you looking for, visit to the home page :)</p>
+    <p>Return to <a href="{{ url_for('urlshort.index_view') }}">Home</a></p>
+</div>
+    
+{% endblock %} 

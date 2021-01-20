@@ -1,0 +1,14 @@
+GUNICORN SETUP
+-----------------
+(venv)$ pipenv install gunicorn
+(venv)$ gunicorn "uslshort:create_app()" -b 0.0.0.0 ## only runs as long as the treminal is open and shuts off if the terminal is closed
+(venv)$ gunicorn "uslshort:create_app()" -b 0.0.0.0 --daemon ## to run gunicorn constantly
+
+NGINX SETUP
+--------------
+(venv)$ sudo apt install nginxo 
+## To check if the webserver is running
+(venv)$ systemctl status nginx
+
+## SETUP NGINX CONF FILE 
+(venv)$ sudo nano /etc/nginx/sites-enabled/default
