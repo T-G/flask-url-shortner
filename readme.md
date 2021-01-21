@@ -1,5 +1,5 @@
 # URL Shorten app
-An app that takes user inputs and saves the data in a json file, it generates a link from the given input which can be shared with any audiance (family, friends) later. the App takes both URL as well as file inputs.
+An app that takes user inputs and saves the data in a json file, it generates a link from the given input which can be shared with any audiance (family, friends) later. The App takes both URL as well as file inputs.
 
 ## Technologies Used
 The following technologies were used:
